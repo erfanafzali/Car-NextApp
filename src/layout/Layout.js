@@ -30,6 +30,6 @@ function Header() {
 
 function Footer() {
   return (
-    <footer className="w-full border-b-2">Develop By invoker &copy;</footer>
+    <footer className="w-full border-b-2 fixed bottom-0">Develop By invoker &copy;</footer>
   );
 }
