@@ -2,10 +2,10 @@ import Link from "next/link";
 
 function Layout({ children }) {
   return (
-    <div className="w-full flex justify-center items-center flex-col">
+    <div className="w-full flex justify-center items-center flex-col ">
       <Header />
 
-      <main className="">{children}</main>
+      <main className="w-full">{children}</main>
       <Footer />
     </div>
   );
@@ -15,9 +15,9 @@ export default Layout;
 
 function Header() {
   return (
-    <header className="bg-blue-400 w-[95%] rounded-tl-[3rem] rounded-br-[3rem] py-5  mt-5  newShadow flex flex-col ">
-      <Link href="#" className="w-full">
-        <h2 className="border-b-4 border-white border-dashed font-bold w-full text-center pb-4 text-2xl md:text-3xl ">
+    <header className="bg-blue-00 w-[95%] rounded-tl-[3rem] rounded-br-[3rem] py-5  mt-5  newShadow flex flex-col ">
+      <Link href="/cars" className="w-full">
+        <h2 className="border-b-4 border-black border-dashed font-bold w-full text-center pb-4 text-2xl md:text-3xl ">
           Car project
         </h2>
       </Link>
@@ -30,6 +30,6 @@ function Header() {
 
 function Footer() {
   return (
-    <footer className="w-full border-b-2 fixed bottom-0">Develop By invoker &copy;</footer>
+    <footer className="w-full text-center py-14 text-xl font-bold bottom-0">Develop By Invoker &copy;</footer>
   );
 }
