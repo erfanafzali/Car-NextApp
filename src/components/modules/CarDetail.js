@@ -22,8 +22,8 @@ function CarDetail(carDetails) {
   } = carDetails;
 
   return (
-    <div className="w-full max-w-3xl mt-12 mb-20 px-5 md:px-0">
-      <div>
+    <div className="w-full max-w-3xl mt-12 mb-20 px-5 md:px-0 flex flex-col justify-center items-center mx-auto">
+      <div className="w-full ">
         <button
           type="button"
           onClick={router.back}
