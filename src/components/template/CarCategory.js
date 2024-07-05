@@ -3,7 +3,6 @@ import MoveBack from "../modules/MoveBack";
 import CarCategoryShow from "../modules/CarCategoryShow";
 
 function CarCategory({ data }) {
-  console.log(data);
   return (
     <div className="w-full">
       <MoveBack />
