@@ -16,7 +16,7 @@ export default Layout;
 function Header() {
   return (
     <header className="bg-blue-00 w-[95%] rounded-tl-[3rem] rounded-br-[3rem] py-5  mt-5  newShadow flex flex-col ">
-      <Link href="/cars" className="w-full">
+      <Link href="/" className="w-full">
         <h2 className="border-b-4 border-black border-dashed font-bold w-full text-center pb-4 text-2xl md:text-3xl ">
           Car project
         </h2>
